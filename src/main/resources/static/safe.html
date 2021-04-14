@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="top"></div>
+<div class="content">
+    <div class="form-class">
+        <div class="input-border-class">
+            <div class="head-border-class">
+                <img src="./img/head.jpg">
+            </div>
+            <input type="text" placeholder="手机号/邮箱" id="account"><br/>
+        </div>
+        <div class="error-class"></div>
+        <div class="input-border-class">
+            <div class="head-border-class">
+                <img  src="./img/safe.png">
+            </div>
+            <button id="getCode-btn">获取验证码</button>
+            <input type="text" placeholder="验证码" id="authCode">
+            <br/>
+        </div>
+        <div class="error-class"></div>
+        <div class="btn-border-class">
+            <button class="btn-class" onclick="javascript:history.back(-1);">返 回</button>
+            <button class="btn-class" id="next-btn">下一步</button>
+        </div>
+    </div>
+</div>
+<div class="bottom"></div>
+</body>
+<script src="./js/jquery/jquery-1.7.2.js"></script>
+<script src="./js/safe.js"></script>
+</html>

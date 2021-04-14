@@ -1,0 +1,36 @@
+#server
+server:
+  port: 9999
+#  context-path: /
+spring:
+  #database
+  datasource:
+    username: root
+    password: Fdf@4515
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.108.186.224:3306/chat?useSSL=false&characterEncoding=utf-8&serverTimezone=UTC
+  #email
+  mail:
+    username: fuxiangk.sun@foxmail.com
+    password: wyzgxqvfsdwtdhef
+    host: smtp.qq.com
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+#  mvc:
+#    view:
+#      prefix: /static/
+#      suffix: .html
+#mybatis
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mappers/*.xml
+#MD5加密
+password:
+  salt: geelysdafaqj23ou89ZXcj@#$@#$#@KJdjklj;D../dSF.,
+#用户头像地址
+headUrl_pre: http://39.108.186.224:9999/upload/
+headUri_default: default.png
+local_pre: /root/chat/upload/

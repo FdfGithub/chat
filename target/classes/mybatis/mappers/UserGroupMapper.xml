@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chat.dao.UserGroupMapper">
+    <select id="findByGroupId" resultType="int">
+        select user_id from chat_user_group where group_id = #{groupId}
+    </select>
+
+    <select id="findByUserId" resultType="int">
+         select group_id from chat_user_group where user_id = #{userId}
+    </select>
+</mapper>

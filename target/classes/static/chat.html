@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/chat.css">
+    <title>聊天窗口</title>
+</head>
+<body>
+<div class="top">
+    <span onclick="javascript:history.back(-1);" style="
+        color: white;
+        /*background:#000;*/
+        /*font-weight: bolder;*/
+        font-size: 40px;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+    ">&lt;</span>
+    <div id="name"></div>
+</div>
+<div style="display: none" id="to_hide"></div>
+<div class="content" id="chat_note">
+<!--    <span class="msg_left_border">委确定</span>-->
+<!--    <div class="time-split"></div>-->
+<!--    <span class="msg_left_border"></span>-->
+
+</div>
+<div class="bottom">
+    <textarea id="msg"></textarea>
+    <button id="sendMsg-btn">发 送</button>
+</div>
+</body>
+<script src="./js/jquery/jquery-1.7.2.js"></script>
+<script src="./js/saveChat.js"></script>
+<script src="./js/chat.js"></script>
+<script>
+    // window.onbeforeunload = function () {
+    //     //关闭该页面之前
+    //     save();
+    // };
+</script>
+</html>

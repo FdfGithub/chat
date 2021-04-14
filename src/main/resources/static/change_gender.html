@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/change_gender.css">
+    <title>修改性别</title>
+</head>
+<body>
+<div class="top">
+        <span onclick="javascript:history.back(-1);" style="
+        color: white;
+        /*background:#000;*/
+        /*font-weight: bolder;*/
+        font-size: 40px;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+    ">&lt;</span>
+    <span id="save">保 存</span>
+</div>
+<div class="content">
+    <input id="baomi" type="radio" name="userGender" value="保密"><label for="baomi"> 保密</label><br/>
+    <input id="girl" type="radio" name="userGender" value="女"> <label for="girl"> 女</label><br/>
+    <input id="boy" type="radio" name="userGender" value="男"> <label for="boy"> 男</label><br/>
+</div>
+</body>
+<script src="./js/jquery/jquery-1.7.2.js"></script>
+<script src="js/change_value.js"></script>
+<script>
+    $(function () {
+        $('.content>input[value=' + sessionStorage.getItem("old_value") + ']').attr("checked", "checked");
+        $("#save").click(function () {
+            var gender = $('input[name="userGender"]:checked').val();
+            update_value("userGender", gender);
+        });
+    });
+</script>
+</html>

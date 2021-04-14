@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chat.dao.UserMapper">
+    <select id="findOne" resultType="int">
+        select user_id from chat_user where (user_email=#{account} or user_tel=#{account}) and user_pwd = #{password}
+    </select>
+
+    <select id="findList" resultType="com.chat.pojo.User">
+        select user_id,user_name,user_head_uri from chat_user where user_id in
+        <foreach collection="userIds" item="userId" separator="," open="(" close=")">
+            #{userId}
+        </foreach>
+    </select>
+
+    <select id="findOneByAccount" resultType="int">
+        select count(*) from chat_user where user_email = #{account} or user_tel = #{account}
+    </select>
+
+    <select id="findUser" resultType="com.chat.pojo.User">
+        select user_id,user_name,user_head_uri from chat_user where
+        user_id like #{mark} or user_email like #{mark} or user_tel like #{mark}
+    </select>
+
+    <select id="findOnById" resultType="int">
+        select count(*) from chat_user where user_id = #{id}
+    </select>
+
+    <select id="findHeadUrl" resultType="string">
+        select user_head_uri from chat_user where user_id = #{id}
+    </select>
+</mapper>

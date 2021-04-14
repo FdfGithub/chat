@@ -1,0 +1,28 @@
+body{
+    height: calc(100vh);
+}
+.top{
+    height: 10%;
+    width: 100%;
+    background: dodgerblue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.top>span{
+    float: right;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    line-height: 64px;
+}
+.content{
+    height: 90%;
+    width: 100%;
+    background: #efefef;
+    padding: 10px;
+    box-sizing: border-box;
+    /*text-align: center;*/
+}
+.content input{
+    margin-top: 20px;
+}

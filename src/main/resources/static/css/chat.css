@@ -1,0 +1,123 @@
+body {
+    height: calc(100vh);
+
+}
+
+.top {
+    height: 15%;
+    width: 100%;
+    background: dodgerblue;
+    /*text-align: center;*/
+    /*position: relative;*/
+    /*z-index: 1;*/
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#name {
+    height: 100%;
+    width: 100%;
+    /*top: 50%;*/
+    /*margin-top: -10.5px;*/
+    /*left: 50%;*/
+    /*margin-left: -16px;*/
+    /*position: absolute;*/
+    line-height: 56px;
+    text-align: center;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*background: #000;*/
+    color: white;
+}
+
+.content {
+    height: 75%;
+    /*height: 50%;*/
+    width: 100%;
+    background: #efefef;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.content .msg_right_border {
+    background: cornflowerblue;
+    font-size: 16px;
+    color: white;
+    float: right;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    /*margin-left: 20%;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+}
+
+.time-split {
+    width: 100%;
+    background: #000;
+    float: left;
+}
+
+.content .msg_left_border {
+    background: white;
+    font-size: 16px;
+    color: black;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    /*position: absolute;*/
+    /*left: 0;*/
+}
+
+.bottom {
+    height: 10%;
+    width: 100%;
+    background: #efefef;
+    padding: 10px;
+    box-sizing: border-box;
+    /*text-align: center;*/
+    /*position: fixed;*/
+}
+
+.bottom > textarea {
+    float: left;
+    height: 30px;
+    width: 78%;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: white;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    resize: none;
+}
+
+.bottom > button {
+    float: right;
+    height: 30px;
+    width: 20%;
+    border-radius: 15px;
+    border: none;
+    background: skyblue;
+    outline: none;
+    color: white;
+}
+
+#to_hide {
+    color: cornflowerblue;
+    background: #fff;
+    text-align: center;
+    height: 21px;
+    width: 100%;
+    position: absolute;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}

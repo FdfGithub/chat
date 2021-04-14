@@ -1,0 +1,77 @@
+body{
+    height: calc(100vh);
+}
+.top{
+    height: 20%;
+    background: dodgerblue;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.content{
+    height: 70%;
+    width: 100%;
+    background: #efefef;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+#head_url{
+    position: absolute;
+    bottom: -40px;
+    left: 20px;
+    height: 80px;
+    width: 80px;
+    /*left: 0;*/
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#info_list{
+    height: 100%;
+    width: 100%;
+    /*background: #000;*/
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+#info_list>li{
+    height: 60px;
+    width: 100%;
+    /*background: green;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    line-height: 40px;
+    border-bottom: 1px solid lightgray;
+}
+#info_list>li>.key-class{
+    float: left;
+    /*background: red;*/
+}
+#info_list>li>.value-class{
+    /*float: right;*/
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.bottom{
+    height: 10%;
+    width: 100%;
+    /*background: green;*/
+    background: lightgray;
+}
+#operation-btn,#send_msg{
+    height: 100%;
+    width: 50%;
+    /*background: #000;*/
+    font-size: 20px;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+}
+#operation-btn{
+    float: left;
+}
+#send_msg{
+    float: right;
+}

@@ -1,0 +1,38 @@
+body{
+    height: calc(100vh);
+}
+.top{
+    height: 10%;
+    width: 100%;
+    background: dodgerblue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#create{
+    float: right;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    line-height: 64px;
+}
+.content{
+    height: 80%;
+    width: 100%;
+    background: #efefef;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.content>input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.bottom{
+    height: 10%;
+    width: 100%;
+    background: #fff;
+}

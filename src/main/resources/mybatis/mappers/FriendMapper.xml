@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chat.dao.FriendMapper">
+<!--    <resultMap id="friendMap" type="com.chat.pojo.Friend">
+        <id property="friendId" column="friend_id"/>
+        <result property="friendId0" column="friend_id0"/>
+        <result property="friendId1" column="friend_id1"/>
+        <association property="user" javaType="com.chat.pojo.User">
+            <result property="userName" column="user_name"/>
+        </association>
+    </resultMap>-->
+    <select id="selectAllByUserId" resultType="com.chat.pojo.Friend">
+        select friend_id0,friend_id1 from chat_friend where friend_id0 = #{userId} or friend_id1 = #{userId}
+    </select>
+
+    <select id="findOne" resultType="int">
+        select count(*) from chat_friend where (friend_id0 = #{id0} and friend_id1 = #{id1}) or
+        (friend_id0 = #{id1} and friend_id1 = #{id0})
+    </select>
+
+    <delete id="deleteRelation">
+        delete from chat_friend where (friend_id0 = #{id0} and friend_id1 = #{id1}) or
+        (friend_id0 = #{id1} and friend_id1 = #{id0})
+    </delete>
+</mapper>

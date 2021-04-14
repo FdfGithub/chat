@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="011e4b68-0be4-4181-a1e8-400b71a6bd9c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\develop\maven\maven-repository" />
+        <option name="mavenHome" value="E:/develop/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\develop\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gO2DDDhgdKjGBrm9xM05yl8rxf" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../note" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.chat.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\idea_work\chat\src\main\resources\static\img" />
+      <recent name="G:\idea_work\chat\src\main\resources\static" />
+      <recent name="G:\idea_work\chat\src\main\resources\static\js" />
+      <recent name="G:\idea_work\chat\src\main\resources" />
+      <recent name="G:\idea_work\chat\src\main\resources\static\css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chat.util" />
+      <recent name="com.chat.common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\idea_work\chat\src\main\resources\static\js" />
+      <recent name="G:\idea_work\chat\src\main\resources\static" />
+      <recent name="G:\idea_work\chat\src\main\resources\static\js\ioing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ChatApplication">
+    <configuration name="DateTimeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chat.util.DateTimeUtil" />
+      <module name="chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chat.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chat.service.impl.UserServiceImpl" />
+      <module name="chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chat.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chat.ChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DateTimeUtil" />
+        <item itemvalue="Application.UserServiceImpl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="011e4b68-0be4-4181-a1e8-400b71a6bd9c" name="Default Changelist" comment="" />
+      <created>1597971196386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597971196386</updated>
+      <workItem from="1597971199192" duration="32824000" />
+      <workItem from="1598005974912" duration="7847000" />
+      <workItem from="1598020572452" duration="6975000" />
+      <workItem from="1598048216657" duration="54209000" />
+      <workItem from="1598135509997" duration="365000" />
+      <workItem from="1598135908107" duration="25331000" />
+      <workItem from="1598164117090" duration="4468000" />
+      <workItem from="1598171734034" duration="17757000" />
+      <workItem from="1598193265346" duration="2503000" />
+      <workItem from="1598223661087" duration="5897000" />
+      <workItem from="1598229856524" duration="3256000" />
+      <workItem from="1598234788356" duration="4000" />
+      <workItem from="1598237998576" duration="2619000" />
+      <workItem from="1598240735689" duration="47883000" />
+      <workItem from="1598306189169" duration="32635000" />
+      <workItem from="1598346731894" duration="88000" />
+      <workItem from="1598411907865" duration="23536000" />
+      <workItem from="1598445953220" duration="5000" />
+      <workItem from="1598447072540" duration="1810000" />
+      <workItem from="1598487086095" duration="8326000" />
+      <workItem from="1598496702419" duration="5621000" />
+      <workItem from="1598517548957" duration="629000" />
+      <workItem from="1598528301906" duration="11000" />
+      <workItem from="1598592639281" duration="20000" />
+      <workItem from="1598593733422" duration="10000" />
+      <workItem from="1598700084290" duration="13000" />
+      <workItem from="1598705729774" duration="9648000" />
+      <workItem from="1598745021237" duration="8283000" />
+      <workItem from="1598754206469" duration="1504000" />
+      <workItem from="1598756070522" duration="1787000" />
+      <workItem from="1598767022497" duration="938000" />
+      <workItem from="1598969975452" duration="59000" />
+      <workItem from="1599298070097" duration="20000" />
+      <workItem from="1599528805469" duration="188000" />
+      <workItem from="1599797895761" duration="45000" />
+      <workItem from="1599817021211" duration="609000" />
+      <workItem from="1599833820632" duration="8000" />
+      <workItem from="1599834113388" duration="2205000" />
+      <workItem from="1601276191306" duration="239000" />
+      <workItem from="1601276878010" duration="540000" />
+      <workItem from="1601709921894" duration="68000" />
+      <workItem from="1602557949139" duration="645000" />
+      <workItem from="1606306818125" duration="19000" />
+      <workItem from="1606306874719" duration="1469000" />
+      <workItem from="1606585532726" duration="147000" />
+      <workItem from="1606612729863" duration="293000" />
+      <workItem from="1606706476457" duration="36000" />
+      <workItem from="1606966801045" duration="158000" />
+      <workItem from="1606967513621" duration="49000" />
+      <workItem from="1607133249520" duration="595000" />
+      <workItem from="1607573997963" duration="369000" />
+      <workItem from="1607594867953" duration="635000" />
+      <workItem from="1607675183354" duration="89000" />
+      <workItem from="1608269114017" duration="118000" />
+      <workItem from="1608270214886" duration="233000" />
+      <workItem from="1608271016168" duration="2565000" />
+      <workItem from="1608278248372" duration="1070000" />
+      <workItem from="1608293066754" duration="2905000" />
+      <workItem from="1608334501907" duration="411000" />
+      <workItem from="1608395984753" duration="623000" />
+      <workItem from="1608441531997" duration="4018000" />
+      <workItem from="1608482399831" duration="1152000" />
+      <workItem from="1608527197379" duration="1356000" />
+      <workItem from="1608954838686" duration="11000" />
+      <workItem from="1609005628973" duration="615000" />
+      <workItem from="1609130190802" duration="895000" />
+      <workItem from="1609164543880" duration="220000" />
+      <workItem from="1609308509018" duration="717000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608482951827">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608482951827" />
+    <state x="323" y="61" key="NewModule_or_Project.wizard" timestamp="1606612927180">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="323" y="61" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1606612927180" />
+    <state x="369" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607594888219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="369" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607594888219" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chat/controller/FileUploadController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
